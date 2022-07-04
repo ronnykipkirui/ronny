@@ -1,0 +1,185 @@
+* {
+	background-color: #FAFAFA;
+}
+
+.div_body {
+	padding-right: 5%;
+	padding-left: 5%;
+
+}
+
+
+/* start of top nav */
+.topnav_wrapper {
+	display: flex;
+}
+
+.topnav_item {
+	background: transparent;
+	margin: 15px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+.topnav_left,
+.topnav_right {
+	flex: 1;
+	display: flex;
+	min-width: -webkit-min-content;
+	
+	/* Workaround to Chrome bug */
+}
+
+.topnav_right {
+	justify-content: flex-end;
+    
+}
+
+.topnav_wrapper {
+	display: flex;
+
+}
+
+/*end of top nav*/
+
+
+.outer_wrapper {
+	display: flex;
+
+}
+.outer_wrapper.item.h1{
+	text-emphasis-color: blue;
+}
+
+
+.item {
+	margin: 2px;
+	padding: 2px;
+}
+
+.left_topNav {
+	flex: 1;
+	display: flex;
+	min-width: -webkit-min-content;
+	/* Workaround to Chrome bug */
+
+}
+
+.left {
+	flex: 1;
+	background-color: transparent;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.right {
+	display: flex;
+	flex: 1;
+	background-color: transparent;
+	justify-content: flex-start;
+}
+
+.pic {
+	/*max-height: 100px;*/
+	width: 80%;
+	background-color: transparent;
+}
+
+/*start spliting div into 3 columns floating next to each other*/
+.data {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	background-color: transparent;
+	float: left;
+	width: 100%;
+	padding: 10px 6px;
+	height: auto;
+	/*flex-direction: row;
+			align-items: stretch;*/
+	margin: 10px 0;
+}
+
+.data .each_data {
+	width: auto;
+	background-color: ghostwhite;
+	margin: 0.5%;
+	min-width: 30.33%;
+	border-radius: 4px;
+	padding: 4px;
+	flex-wrap: nowrap;
+	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+		4px 4px 6px rgba(94, 104, 121, 0.288);
+}
+
+/*.data .each_data:hover{
+			box-shadow: -5px -5px 8px lightskyblue;,
+		      4px 4px 6px lightskyblue;
+		}*/
+.data .each_data p {
+	font-size: 100%;
+	margin: 2px auto;
+}
+
+/*end of 3 column split*/
+
+/*start spliting div into 2 columns floating next to each other*/
+
+.div_split {
+	display: flex;
+	flex: 1;
+	float: left;
+	width: 100%;
+}
+
+.div_split .div_item {
+	width: fit-content;
+	min-width: 47%;
+	float: left;
+	/*border: 2px solid deepskyblue;*/
+}
+
+.div_split .div_item:last-of-type {
+	padding-left: 10%;
+}
+
+/*end of 2 column split*/
+
+
+/*starts of button right*/
+.div_btn {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.div_btn .btn_right {
+	margin-right: 4%;
+
+}
+
+.footer {
+	background: blue;
+	height: 30vh;
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px;
+	
+}
+
+
+.div_split_4 {
+	display: flex;
+	flex: 1;
+	background-color: blue;
+	float: left;
+	width: 100%;
+}
+
+.div_split_4 .div_item {
+	width: fit-content;
+	min-width: 24%;
+	float: left;
+	background-color: blue;
+	
+}
