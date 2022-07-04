@@ -9,7 +9,8 @@
 }
 
 
-/* start of top nav */
+
+
 .topnav_wrapper {
 	display: flex;
 }
@@ -27,7 +28,7 @@
 	display: flex;
 	min-width: -webkit-min-content;
 	
-	/* Workaround to Chrome bug */
+	
 }
 
 .topnav_right {
@@ -40,7 +41,7 @@
 
 }
 
-/*end of top nav*/
+
 
 
 .outer_wrapper {
@@ -61,7 +62,7 @@
 	flex: 1;
 	display: flex;
 	min-width: -webkit-min-content;
-	/* Workaround to Chrome bug */
+	
 
 }
 
@@ -85,7 +86,7 @@
 	background-color: transparent;
 }
 
-/*start spliting div into 3 columns floating next to each other*/
+
 .data {
 	display: flex;
 	flex-wrap: wrap;
@@ -95,8 +96,6 @@
 	width: 100%;
 	padding: 10px 6px;
 	height: auto;
-	/*flex-direction: row;
-			align-items: stretch;*/
 	margin: 10px 0;
 }
 
@@ -112,18 +111,11 @@
 		4px 4px 6px rgba(94, 104, 121, 0.288);
 }
 
-/*.data .each_data:hover{
-			box-shadow: -5px -5px 8px lightskyblue;,
-		      4px 4px 6px lightskyblue;
-		}*/
 .data .each_data p {
 	font-size: 100%;
 	margin: 2px auto;
 }
 
-/*end of 3 column split*/
-
-/*start spliting div into 2 columns floating next to each other*/
 
 .div_split {
 	display: flex;
@@ -136,17 +128,13 @@
 	width: fit-content;
 	min-width: 47%;
 	float: left;
-	/*border: 2px solid deepskyblue;*/
+	
 }
 
 .div_split .div_item:last-of-type {
 	padding-left: 10%;
 }
 
-/*end of 2 column split*/
-
-
-/*starts of button right*/
 .div_btn {
 	display: flex;
 	width: 100%;
